@@ -28,8 +28,6 @@ class ViewController: UIViewController {
     /// 画出来的 视图
     private lazy var shapeLayer = CAShapeLayer()
     
-
-    
     override func viewDidLoad() {
         
         super.viewDidLoad()
@@ -75,13 +73,6 @@ class ViewController: UIViewController {
         moveToPoint =  CGPoint(x: contPointX, y: contPointY)
     }
     
-    
-    
-    
-    
-    
-    
-    
     //MARK: - 绘制出 果冻效果
     private func redrawGraph() {
         
@@ -107,20 +98,6 @@ class ViewController: UIViewController {
         // 将绘制好的路径 给 shapeLayer
         shapeLayer.path = bezierPath.CGPath
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     //手指拖拽 view 调用的方法
     @objc private func moveRightView(sender: UIPanGestureRecognizer) {
