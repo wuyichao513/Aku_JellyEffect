@@ -1,0 +1,2 @@
+# Aku_JellyEffect
+利用弹簧效果产生的路径让UIBezierpath绘制路径,绘制出果冻效果
